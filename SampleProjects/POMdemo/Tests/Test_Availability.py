@@ -126,8 +126,8 @@ class TestAvailability(unittest.TestCase):
         # Provide correct inputs for successful addition
         time.sleep(2)
         self.availability_page.select_availability_type("unavail")
-        self.availability_page.set_start_date("2024-07-17")
-        self.availability_page.set_end_date("2024-07-17")
+        self.availability_page.set_start_date("2024-07-21")
+        self.availability_page.set_end_date("2024-07-21")
         self.availability_page.select_time_toggle("0")
         self.availability_page.add_comment("Test comment")
         self.availability_page.click_submit_button()
